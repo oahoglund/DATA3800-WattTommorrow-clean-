@@ -1,6 +1,12 @@
 # DATA3800-WattTommorrow-clean
 Semester project for DATA3800 - Data Science with Scripting. This is the cleaned up version, as the actual repository has alot of unused code.
 
+## Authors
+- Oscar Albert Höglund
+- Erik Minh Le
+- Adrian Rod Hammerstad
+- Arjan Mahmuod
+
 ## Project Overview
 This project focuses on building an end-to-end system for **forecasting electricity prices** using historical energy market data, weather information, and time-based features. The work combines **machine learning**, **API development**, and **LLM-based explanations** into a single deployable application.
 
