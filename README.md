@@ -1,7 +1,55 @@
-# DATA3800-WattTommorrow-clean-
+# DATA3800-WattTommorrow-clean
 Semester project for DATA3800 - Data Science with Scripting. This is the cleaned up version, as the actual repository has alot of unused code.
 
-Forecasting electricity prices and explaining them with a local GenAI assistant.
+## Project Overview
+This project focuses on building an end-to-end system for **forecasting electricity prices** using historical energy market data, weather information, and time-based features. The work combines **machine learning**, **API development**, and **LLM-based explanations** into a single deployable application.
+
+The core data analysis, feature engineering, and model experimentation are documented in `main.ipynb`. This repository highlights how those results were turned into a usable backend service.
+
+---
+
+## What We Built
+- Trained a machine learning model to predict **day-ahead electricity prices (EUR/MWh)** using:
+  - Time features (hour, weekday, seasonality)
+  - Energy generation by source (solar, wind, nuclear, gas, etc.)
+  - Load forecasts and actual demand
+  - Weather data (temperature, wind, rain, snow)
+  - Lagged prices and rolling statistics
+- Selected and saved the best-performing model for inference.
+- Developed a **FastAPI backend** that:
+  - Serves price predictions via a REST API
+  - Validates inputs using strict schemas
+  - Enforces consistent feature ordering for reliable inference
+- Integrated a **lightweight LLM (TinyLlama)** to generate short, human-readable explanations of predicted prices.
+- Added endpoints to retrieve **stored predictions** with pagination.
+- Served a simple **web-based frontend** directly from the API.
+
+---
+
+## Key Findings
+- Electricity prices are strongly influenced by **recent price history**, **load levels**, and **renewable generation availability**.
+- Lagged price features and rolling statistics significantly improved model stability.
+- Weather variables had indirect but measurable effects through load and renewable output.
+
+---
+
+## Technologies Used
+- Python, Pandas, scikit-learn
+- FastAPI & Pydantic
+- Joblib (model persistence)
+- Hugging Face Transformers (TinyLlama)
+- RESTful API design
+
+---
+
+## Why This Project Matters
+This project demonstrates the full lifecycle of a data science solution:
+- From **exploratory analysis and modeling**
+- To **production-ready APIs**
+- To **user-facing explanations of model output**
+
+It highlights practical skills in **machine learning deployment**, **backend development**, and **applied AI**, making it well-suited for real-world energy, data science, or ML engineering roles.
+
 
 ---
 
