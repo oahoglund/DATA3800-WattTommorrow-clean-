@@ -1,0 +1,237 @@
+{
+    "feature_names": [
+        "generation_other",
+        "generation_coal",
+        "generation_oil",
+        "generation_natural_gas",
+        "generation_hydro",
+        "generation_nuclear",
+        "generation_solar",
+        "forecast_solar",
+        "generation_wind",
+        "forecast_wind",
+        "total_load_forecast",
+        "total_load_actual",
+        "price_day_ahead",
+        "price_actual",
+        "temp",
+        "temp_min",
+        "temp_max",
+        "pressure",
+        "wind_speed",
+        "wind_deg",
+        "rain_1h",
+        "rain_3h",
+        "snow_3h",
+        "hour",
+        "day",
+        "month",
+        "year",
+        "dayofweek",
+        "is_weekend",
+        "dayofyear",
+        "weekofyear",
+        "price_actual_lag23",
+        "price_actual_lag24",
+        "price_actual_lag47",
+        "price_actual_lag48",
+        "price_actual_lag71",
+        "price_actual_lag72",
+        "price_actual_lag95",
+        "price_actual_lag96",
+        "price_actual_lag119",
+        "price_actual_lag120",
+        "price_actual_lag143",
+        "price_actual_lag144",
+        "price_actual_rolling_mean_24",
+        "price_actual_rolling_std_24",
+        "total_load_actual_rolling_mean_24"
+    ],
+    "target": "target_price_tomorrow",
+    "feature_importance": [
+        {
+            "feature": "price_actual",
+            "importance": 9178.7353515625
+        },
+        {
+            "feature": "price_actual_lag144",
+            "importance": 2415.66455078125
+        },
+        {
+            "feature": "price_day_ahead",
+            "importance": 1660.1038818359375
+        },
+        {
+            "feature": "dayofweek",
+            "importance": 649.898193359375
+        },
+        {
+            "feature": "day",
+            "importance": 449.2900390625
+        },
+        {
+            "feature": "price_actual_lag143",
+            "importance": 371.9925537109375
+        },
+        {
+            "feature": "wind_speed",
+            "importance": 365.08856201171875
+        },
+        {
+            "feature": "year",
+            "importance": 357.907470703125
+        },
+        {
+            "feature": "price_actual_rolling_mean_24",
+            "importance": 211.7925567626953
+        },
+        {
+            "feature": "price_actual_lag72",
+            "importance": 205.12496948242188
+        },
+        {
+            "feature": "price_actual_lag120",
+            "importance": 199.27223205566406
+        },
+        {
+            "feature": "weekofyear",
+            "importance": 188.6416473388672
+        },
+        {
+            "feature": "month",
+            "importance": 186.53067016601562
+        },
+        {
+            "feature": "dayofyear",
+            "importance": 180.67930603027344
+        },
+        {
+            "feature": "price_actual_lag48",
+            "importance": 177.65443420410156
+        },
+        {
+            "feature": "is_weekend",
+            "importance": 141.4801483154297
+        },
+        {
+            "feature": "hour",
+            "importance": 120.64772033691406
+        },
+        {
+            "feature": "price_actual_lag71",
+            "importance": 120.05679321289062
+        },
+        {
+            "feature": "price_actual_lag24",
+            "importance": 112.8292007446289
+        },
+        {
+            "feature": "rain_3h",
+            "importance": 91.41026306152344
+        },
+        {
+            "feature": "forecast_wind",
+            "importance": 87.61307525634766
+        },
+        {
+            "feature": "pressure",
+            "importance": 86.89671325683594
+        },
+        {
+            "feature": "total_load_forecast",
+            "importance": 74.90567016601562
+        },
+        {
+            "feature": "price_actual_lag96",
+            "importance": 73.04487609863281
+        },
+        {
+            "feature": "temp",
+            "importance": 70.74413299560547
+        },
+        {
+            "feature": "generation_nuclear",
+            "importance": 70.65845489501953
+        },
+        {
+            "feature": "price_actual_lag47",
+            "importance": 69.0345458984375
+        },
+        {
+            "feature": "total_load_actual_rolling_mean_24",
+            "importance": 65.80228424072266
+        },
+        {
+            "feature": "snow_3h",
+            "importance": 65.70526885986328
+        },
+        {
+            "feature": "price_actual_rolling_std_24",
+            "importance": 65.67640686035156
+        },
+        {
+            "feature": "generation_wind",
+            "importance": 55.35406494140625
+        },
+        {
+            "feature": "temp_max",
+            "importance": 49.27777862548828
+        },
+        {
+            "feature": "generation_coal",
+            "importance": 46.04241943359375
+        },
+        {
+            "feature": "price_actual_lag119",
+            "importance": 43.13261795043945
+        },
+        {
+            "feature": "price_actual_lag95",
+            "importance": 43.09072494506836
+        },
+        {
+            "feature": "temp_min",
+            "importance": 42.60037612915039
+        },
+        {
+            "feature": "rain_1h",
+            "importance": 39.47161102294922
+        },
+        {
+            "feature": "total_load_actual",
+            "importance": 37.57319259643555
+        },
+        {
+            "feature": "generation_oil",
+            "importance": 35.05427551269531
+        },
+        {
+            "feature": "price_actual_lag23",
+            "importance": 34.03586196899414
+        },
+        {
+            "feature": "generation_natural_gas",
+            "importance": 32.965362548828125
+        },
+        {
+            "feature": "generation_solar",
+            "importance": 28.408233642578125
+        },
+        {
+            "feature": "wind_deg",
+            "importance": 27.212392807006836
+        },
+        {
+            "feature": "generation_hydro",
+            "importance": 25.957683563232422
+        },
+        {
+            "feature": "forecast_solar",
+            "importance": 25.8992862701416
+        },
+        {
+            "feature": "generation_other",
+            "importance": 23.875715255737305
+        }
+    ]
+}
