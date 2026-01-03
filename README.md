@@ -7,7 +7,7 @@ Semester project for DATA3800 - Data Science with Scripting. This is the cleaned
 - Adrian Rod Hammerstad
 - Arjan Mahmuod
 
-I have gotten permission from my colleagues to share this project publically
+I have gotten permission from my colleagues to share this project publicly
 
 ## Project Overview
 This project focuses on building an end-to-end system for **forecasting electricity prices** using historical energy market data, weather information, and time-based features. The work combines **machine learning**, **API development**, and **LLM-based explanations** into a single deployable application.
