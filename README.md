@@ -24,6 +24,7 @@ The core data analysis, feature engineering, and model experimentation are docum
   - Weather data (temperature, wind, rain, snow)
   - Lagged prices and rolling statistics
 - Selected and saved the best-performing model for inference.
+  (Which was a XGBoost modell that had a 39% better RMSE performance than the naive baseline)
 - Developed a **FastAPI backend** that:
   - Serves price predictions via a REST API
   - Validates inputs using strict schemas
